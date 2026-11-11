@@ -3,6 +3,7 @@
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://aravindkumargs.github.io/Ship-Your-First-Web-Page/)
 [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
 [![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)](#)
 
@@ -21,7 +22,8 @@ Built strictly with clean semantic **HTML5**, modern **CSS3** (custom properties
 | **Candidate Name** | Aravind Kumar GS |
 | **Candidate Email** | aravindkumar06062006@gmail.com |
 | **GitHub Repository** | [https://github.com/ARAVINDKUMARGS/Ship-Your-First-Web-Page](https://github.com/ARAVINDKUMARGS/Ship-Your-First-Web-Page) |
-| **Live Vercel URL** | [https://ship-your-first-web-page.vercel.app](https://ship-your-first-web-page.vercel.app) |
+| **Live GitHub Pages URL** | [https://aravindkumargs.github.io/Ship-Your-First-Web-Page/](https://aravindkumargs.github.io/Ship-Your-First-Web-Page/) |
+| **Alternative Vercel URL** | [https://ship-your-first-web-page.vercel.app](https://ship-your-first-web-page.vercel.app) |
 
 ---
 
@@ -61,7 +63,7 @@ Built strictly with clean semantic **HTML5**, modern **CSS3** (custom properties
 - **Interactive Preset Scenarios:**
   - `Responsive Audit`: Validates viewport configurations.
   - `Speed Benchmark`: Displays Core Web Vitals telemetry.
-  - `Vercel Deployment`: Shows static asset detection and edge status.
+  - `Deployment Audit`: Shows static asset detection and edge status.
   - `Code Structure`: Summarizes semantic and accessibility compliance.
 - **Typewriter Streaming Effect:** Dynamic JavaScript character animation for realistic feedback.
 - **Custom Query Input:** Accepts any user question and generates an instant contextual response.
@@ -136,48 +138,32 @@ Open `http://localhost:3000` in your web browser.
 
 ---
 
-## 🐙 Step-by-Step: Pushing to GitHub
+## 🌐 How to Enable GitHub Pages (3 Simple Steps)
 
-```powershell
-cd "c:\Users\Admin\Downloads\New folder"
+Since your code is already pushed to GitHub, enabling GitHub Pages takes less than 30 seconds:
 
-# Add all project files
-git add .
+1. Open your repository on GitHub:
+   👉 **[https://github.com/ARAVINDKUMARGS/Ship-Your-First-Web-Page](https://github.com/ARAVINDKUMARGS/Ship-Your-First-Web-Page)**
+2. Click on **Settings** (gear icon in the repo menu) → In the left sidebar, click **Pages**.
+3. Under **Build and deployment**:
+   - **Source:** Select `Deploy from a branch`
+   - **Branch:** Select `main` and folder `/ (root)`
+   - Click **Save**.
 
-# Create your commit
-git commit -m "feat: complete ApnoAI Ship Your First Web Page project"
-
-# Push your code to GitHub
-git push -u origin main
-```
+That's it! GitHub Actions will automatically deploy your page within 30–60 seconds to:
+👉 **`https://aravindkumargs.github.io/Ship-Your-First-Web-Page/`**
 
 ---
 
-## ⚡ Step-by-Step: Deploying to Vercel
+## ⚡ Alternative: Deploying to Vercel
 
-Vercel provides blazing-fast global deployment with automatic HTTPS:
+If you also wish to deploy on Vercel:
 
-### Method A: Deploy via Vercel Web Dashboard (Recommended & Easiest)
-1. Go to [vercel.com](https://vercel.com) and sign in with your GitHub account (`ARAVINDKUMARGS`).
-2. On your Vercel Dashboard, click **"Add New..."** → **"Project"**.
-3. Under **"Import Git Repository"**, find `Ship-Your-First-Web-Page` and click **"Import"**.
-4. Configure Project settings:
-   - **Framework Preset:** `Other` (Static HTML/CSS/JS)
-   - **Root Directory:** `./`
-   - Leave Build and Output Settings as default.
+1. Go to [vercel.com](https://vercel.com) and sign in with your GitHub account.
+2. Click **"Add New..."** → **"Project"**.
+3. Under **"Import Git Repository"**, select `Ship-Your-First-Web-Page` and click **"Import"**.
+4. Leave settings as default (Framework Preset: `Other`, Root: `./`).
 5. Click **"Deploy"**.
-6. In ~15 seconds, Vercel will complete the build and display your live production URL (e.g., `https://ship-your-first-web-page.vercel.app`)!
-
-### Method B: Deploy via Vercel CLI
-If you prefer deploying via terminal:
-
-```powershell
-# Run Vercel CLI directly via npx
-npx vercel
-
-# For final production deployment:
-npx vercel --prod
-```
 
 ---
 
@@ -196,7 +182,7 @@ Before submitting to ApnoAI, verify every item below:
 - [x] **Multi-Device Responsiveness:** Verified on Mobile (<640px), Tablet (641-1024px), and Desktop (>1024px).
 - [x] **Theme Switcher:** Dark/Light theme switching with `localStorage` persistence.
 - [x] **Performance & Cleanliness:** Zero placeholder text, zero console errors, zero external runtime bloat.
-- [x] **Deployment Documentation:** Complete steps for local execution, GitHub push, and Vercel hosting.
+- [x] **Deployment Documentation:** Complete steps for local execution, GitHub push, and GitHub Pages hosting.
 
 ---
 
@@ -206,7 +192,7 @@ Before submitting to ApnoAI, verify every item below:
 2. **Technical Rigor:** Strict semantic markup, responsive layout grids, and zero layout shift.
 3. **Interactive Features:** Real-time filter tabs, live AI prompt simulator with simulated streaming, accordion components, and custom toast notifications.
 4. **Zero Bloat:** 100% lightweight vanilla implementation with zero dependency overhead.
-5. **Production Readiness:** Configured with `vercel.json` security headers and edge caching.
+5. **Production Readiness:** Configured with relative paths for 100% compatibility with GitHub Pages, custom domain readiness, and Vercel edge caching.
 
 ---
 *Created for the ApnoAI Internship Program Evaluation.*
