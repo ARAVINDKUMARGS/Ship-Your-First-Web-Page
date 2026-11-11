@@ -19,10 +19,9 @@ Built strictly with clean semantic **HTML5**, modern **CSS3** (custom properties
 | **Internship Task** | Ship Your First Web Page (20 Points) |
 | **Platform / Organization** | ApnoAI |
 | **Candidate Name** | Aravind Kumar GS |
-| **GitHub Repository** | `https://github.com/<your-username>/apnoai-ship-your-first-web-page` |
-| **Live Vercel URL** | `https://apnoai-ship-your-first-web-page.vercel.app` |
-
-*(Replace `<your-username>` with your GitHub username once pushed)*
+| **Candidate Email** | aravindkumar06062006@gmail.com |
+| **GitHub Repository** | [https://github.com/ARAVINDKUMARGS/Ship-Your-First-Web-Page](https://github.com/ARAVINDKUMARGS/Ship-Your-First-Web-Page) |
+| **Live Vercel URL** | [https://ship-your-first-web-page.vercel.app](https://ship-your-first-web-page.vercel.app) |
 
 ---
 
@@ -98,7 +97,7 @@ Built strictly with clean semantic **HTML5**, modern **CSS3** (custom properties
 ## 📁 Project Directory Structure
 
 ```text
-apnoai-ship-your-first-web-page/
+Ship-Your-First-Web-Page/
 ├── index.html        # Semantic HTML5 markup, meta tags, and structured layout
 ├── style.css         # Modern CSS3 stylesheet (variables, animations, media queries)
 ├── script.js         # Vanilla JavaScript (theme toggle, mobile menu, filters, demo, forms)
@@ -139,64 +138,35 @@ Open `http://localhost:3000` in your web browser.
 
 ## 🐙 Step-by-Step: Pushing to GitHub
 
-Follow these steps to push your project to your GitHub account:
-
-### Step 1: Initialize Git Repository
-Open PowerShell or your command prompt in this project folder:
-
 ```powershell
 cd "c:\Users\Admin\Downloads\New folder"
-
-# Initialize local git repository
-git init
 
 # Add all project files
 git add .
 
-# Create your first commit
-git commit -m "feat: complete ApnoAI Ship Your First Web Page internship task"
-```
+# Create your commit
+git commit -m "feat: complete ApnoAI Ship Your First Web Page project"
 
-### Step 2: Create a New Repository on GitHub
-1. Go to [github.com](https://github.com) and log in.
-2. Click the **+** icon in the top right and select **New repository**.
-3. Name your repository: `apnoai-ship-your-first-web-page` (or any preferred name).
-4. Set visibility to **Public**.
-5. Leave "Initialize with README", ".gitignore", and "license" unchecked (we already have them).
-6. Click **Create repository**.
-
-### Step 3: Link and Push Code to GitHub
-Copy the commands provided by GitHub (replace `<your-username>` with your GitHub username):
-
-```powershell
-# Rename branch to main
-git branch -M main
-
-# Add your remote repository origin
-git remote add origin https://github.com/<your-username>/apnoai-ship-your-first-web-page.git
-
-# Push your code
+# Push your code to GitHub
 git push -u origin main
 ```
-
-Your code is now safely backed up on GitHub!
 
 ---
 
 ## ⚡ Step-by-Step: Deploying to Vercel
 
-Vercel provides blazing-fast global deployment with automatic HTTPS. Choose either method below:
+Vercel provides blazing-fast global deployment with automatic HTTPS:
 
 ### Method A: Deploy via Vercel Web Dashboard (Recommended & Easiest)
-1. Go to [vercel.com](https://vercel.com) and sign in (using your GitHub account).
+1. Go to [vercel.com](https://vercel.com) and sign in with your GitHub account (`ARAVINDKUMARGS`).
 2. On your Vercel Dashboard, click **"Add New..."** → **"Project"**.
-3. Under **"Import Git Repository"**, find `apnoai-ship-your-first-web-page` and click **"Import"**.
+3. Under **"Import Git Repository"**, find `Ship-Your-First-Web-Page` and click **"Import"**.
 4. Configure Project settings:
    - **Framework Preset:** `Other` (Static HTML/CSS/JS)
    - **Root Directory:** `./`
    - Leave Build and Output Settings as default.
 5. Click **"Deploy"**.
-6. In ~15 seconds, Vercel will complete the build and display confetti with your live production URL (e.g., `https://apnoai-ship-your-first-web-page.vercel.app`)!
+6. In ~15 seconds, Vercel will complete the build and display your live production URL (e.g., `https://ship-your-first-web-page.vercel.app`)!
 
 ### Method B: Deploy via Vercel CLI
 If you prefer deploying via terminal:
@@ -204,13 +174,6 @@ If you prefer deploying via terminal:
 ```powershell
 # Run Vercel CLI directly via npx
 npx vercel
-
-# Follow the interactive prompts:
-# ? Set up and deploy? [Y/n] y
-# ? Which scope do you want to deploy to? <Your Account>
-# ? Link to existing project? [y/N] n
-# ? What's your project's name? apnoai-ship-your-first-web-page
-# ? In which directory is your code located? ./
 
 # For final production deployment:
 npx vercel --prod
@@ -247,6 +210,3 @@ Before submitting to ApnoAI, verify every item below:
 
 ---
 *Created for the ApnoAI Internship Program Evaluation.*
-
-#   S h i p - Y o u r - F i r s t - W e b - P a g e  
- 
